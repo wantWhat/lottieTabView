@@ -1,4 +1,4 @@
-# lottieTabView
+# lottieTabView [![](https://jitpack.io/v/wantWhat/lottieTabView.svg)](https://jitpack.io/#wantWhat/lottieTabView)
 底部导航栏使用lottie动画
 
 # 效果图
