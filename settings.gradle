@@ -1,0 +1,3 @@
+include ':lottieview'
+include ':app'
+rootProject.name = "LottieTabViewDemo"
