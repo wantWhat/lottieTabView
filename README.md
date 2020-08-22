@@ -6,3 +6,20 @@
 - 卡顿是因为录屏导致
 - 基于[airbnb lottie-android](https://github.com/airbnb/lottie-android)的封装
 - 动画资源在demo的assets目录下
+# 使用
+ - 根目录的build.gradle
+```
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+- app 的build.gradle
+```
+dependencies {
+    implementation 'com.github.wantWhat:lottieTabView:v1.0'
+}
+```
