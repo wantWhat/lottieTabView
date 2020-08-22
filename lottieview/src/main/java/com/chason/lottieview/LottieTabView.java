@@ -72,6 +72,9 @@ public class LottieTabView extends FrameLayout {
         }
     }
 
+    /**
+     * 选中状态
+     */
     public void selected() {
         if (TextUtils.isEmpty(mAnimationPath)) {
             throw new NullPointerException("ainmation path must be not empty");
@@ -82,12 +85,19 @@ public class LottieTabView extends FrameLayout {
         }
     }
 
+    /**
+     * 未选中
+     */
     public void unSelected() {
         mTabNameView.setTextColor(mTextNormalColor);
         mLottieView.clearAnimation();
         mLottieView.setImageDrawable(mIconNormal);
     }
 
+    /**
+     * 显示红点消息数，默认不显示
+     * @param num
+     */
     public void showMsg(int num) {
         if (num > 0 && num <= 99) {
             mMsgView.setVisibility(VISIBLE);
